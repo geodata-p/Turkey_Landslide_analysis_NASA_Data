@@ -14,11 +14,16 @@ This repository analyses landslide events in **Turkey** using the **NASA Global 
 # Reproducibility
 - Open the notebook and run cells top-to-bottom?
 - Replace the input CSV with the latest export if needed?
+- 
 
-- # Key Findings *(to update after running the notebook)*
-- **Seasonality:** ~**X%** of rain-related landslides and **Y%** of fatalities occurred during **Jun–Sep (monsoon period)** in Turkey’s rain-driven events.?
-- **Trigger impact:** **Downpour** events showed **higher mean fatalities per event** (≈ **A**), compared to **Rainfall** (≈ **B**) — confirmed by **Kruskal–Wallis** (p = **P**).?
-- **Hotspots:** Districts such as **[District 1]**, **[District 2]** recorded the **highest event density** and **fatality burden**.?
-- **Event size & impact:** **[Large/Very large]** landslides, though less frequent, accounted for **Z%** of total fatalities.?
-- **Reporting note:** Data coverage ends around **2018** for many regions; results reflect reporting bias and should be interpreted accordingly.?
+- # Key Findings 
+- **Seasonality:** Most events happen in July-Nov (midsummer-autumn) , but Jan(mid-winter) events are deadlier per landslide **
+- 
+- **Trigger impact:** **Downpour** Downpours are the leading cause of landslides in Turkey, both in terms of frequency (11 events) and lethality (median 3 fatalities per event, maximum 12**
+- 
+- **Hotspots:** NE Turkey provinces (Rize–Artvin) are hotspots, with rainfall-induced slides causing repeated fatalities**.?
+- 
+- **Event size & impact:** ?
+- 
+- **Reporting note:** ?
 
