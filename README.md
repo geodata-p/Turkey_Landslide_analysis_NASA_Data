@@ -12,11 +12,7 @@ https://data.nasa.gov/dataset/global-landslide-catalog-export)
 # Reproducibility
   ## Requirements & Installation
   This project was developed and tested with:
-  - pandas 2.2.2
-  - numpy 2.0.2
-  - matplotlib 3.10.0
-  - plotly 5.20.0
-  - python-dateutil 2.9.0.post0
+  - pandas 2.2.2     - numpy 2.0.2     - matplotlib 3.10.0    - plotly 5.20.0     - python-dateutil 2.9.0.post0
 
     To ensure reproducibility, a `requirements.txt` file is included in this repository. This allows anyone to recreate the same environment and run the code reliably.
 
@@ -41,9 +37,8 @@ The NASA Global Landslide Catalog was uploaded into Google Colab using pandas, c
 The resulting table was then filtered to isolate Turkey-specific events.
 
 
-
-
-- **Analyse seasonality** ()
+- **Analyse seasonality**
+-  
 
 - 
 - **Compare impact by trigger** ()
