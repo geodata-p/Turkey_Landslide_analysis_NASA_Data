@@ -37,14 +37,15 @@ https://data.nasa.gov/dataset/global-landslide-catalog-export)
 # Objectives
 NASA data cleaning → filtering Turkey → analysis → insights
 - **Clean & classify** the NASA dataset
- ### Data Ingestion
-The NASA Global Landslide Catalog (CSV) was uploaded into Google Colab using  a pandas (data analysis library, for loading and manipulating CSVs). 
-
+The NASA Global Landslide Catalog was uploaded into Google Colab using pandas, column names were standardised, and  python-dateutil was applied for robust date parsing to produce a clean, analysis-ready table.
+The resulting table was then filtered to isolate Turkey-specific events.
 
 
 
 
 - **Analyse seasonality** ()
+
+- 
 - **Compare impact by trigger** ()
 - **Identify spatial hotspots** ()
 
