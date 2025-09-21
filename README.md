@@ -39,9 +39,12 @@ The NASA Global Landslide Catalog was uploaded into Google Colab using pandas, c
 The resulting table was then filtered to isolate Turkey-specific events.
 
 - **Analyse seasonality**
--  Landslide events were grouped by month using pandas and visualised with matplotlib. Total fatalities and average fatalities per event were charted by month across 2007–2016 to highlight higher-risk months.
+Landslide events were grouped by month using pandas and visualised with matplotlib. Total fatalities and average fatalities per event were charted by month across 2007–2016 to highlight higher-risk months.
 
-- **Compare impact by trigger** ()
+- **Compare impact by trigger**
+Using matplotlib, bar charts were created to show and compare the number of events, total fatalities and the percentage of deadly events for each landslide trigger in Turkey.
+
+
 - **Identify spatial hotspots** ()
 
 
@@ -53,9 +56,9 @@ The resulting table was then filtered to isolate Turkey-specific events.
 
 
 - # Key Findings 
-- **Seasonality:** Most events happen in July-Nov (midsummer-autumn) , but Jan(mid-winter) events are deadlier per landslide **
+- **Seasonality:** Most events happen in July-Nov (midsummer-autumn) , but Jan(mid-winter) events are deadlier per landslide.
 - 
-- **Trigger impact:** **Downpour** Downpours are the leading cause of landslides in Turkey, both in terms of frequency (11 events) and lethality (median 3 fatalities per event, maximum 12**
+- **Trigger impact:** Both downpour- and rainfall-triggered landslides are highly lethal, with ~70% of events resulting in fatalities. However, downpours occur more frequently (11 vs 8 events) and have caused more than twice as many deaths overall (34 vs 15). This combination of higher frequency and higher total impact makes downpours the primary driver of landslide risk in Turkey, while rainfall remains a secondary but still serious hazard.
 - 
 - **Hotspots:** NE Turkey provinces (Rize–Artvin) are hotspots, with rainfall-induced slides causing repeated fatalities**.?
 - 
