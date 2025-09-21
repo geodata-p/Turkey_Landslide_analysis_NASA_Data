@@ -39,7 +39,7 @@ The NASA Global Landslide Catalog was uploaded into Google Colab using pandas, c
 The resulting table was then filtered to isolate Turkey-specific events.
 
 - **Analyse seasonality**
--  Landslide events were grouped by month using pandas and visualised with matplotlib.
+-  Landslide events were grouped by month using pandas and visualised with matplotlib. Total fatalities and average fatalities per event were charted by month across 2007–2016 to highlight higher-risk months.
 
 - **Compare impact by trigger** ()
 - **Identify spatial hotspots** ()
