@@ -1,5 +1,5 @@
 # Project Overview
-This repository analyses landslide events in **Turkey** using the **NASA Global Landslide Catalog** with Python. It explores how different triggers—particularly rainfall—relate to **fatalities**, **seasonality**, and **event frequency**.
+This repository analyses landslide events in **Turkey** from 2007 to 2016 using the **NASA Global Landslide Catalog** with Python. It explores how different triggers—particularly rainfall—relate to **fatalities**, **seasonality**, and **event frequency**.
 
 https://data.nasa.gov/dataset/global-landslide-catalog-export)
 
@@ -42,7 +42,7 @@ The resulting table was then filtered to isolate Turkey-specific events.
 Landslide events were grouped by month using pandas and visualised with matplotlib. Total fatalities and average fatalities per event were charted by month across 2007–2016 to highlight higher-risk months.
 
 - **Compare impact by trigger**
-Using matplotlib, bar charts were created to show and compare the number of events, total fatalities and the percentage of deadly events for each landslide trigger in Turkey.
+Using matplotlib, bar charts were created to show and compare the number of events, total fatalities and the percentage of deadly events for each landslide trigger in Turkey. Boxplots were generated with matplotlib to compare the distribution of fatalities across different landslide triggers, demonstrating variability (median, quartiles, and outliers) rather than relying solely on averages.
 
 
 - **Identify spatial hotspots** ()
@@ -58,7 +58,7 @@ Using matplotlib, bar charts were created to show and compare the number of even
 - # Key Findings 
 - **Seasonality:** Most events happen in July-Nov (midsummer-autumn) , but Jan(mid-winter) events are deadlier per landslide.
 - 
-- **Trigger impact:** Both downpour- and rainfall-triggered landslides are highly lethal, with ~70% of events resulting in fatalities. However, downpours occur more frequently (11 vs 8 events) and have caused more than twice as many deaths overall (34 vs 15). This combination of higher frequency and higher total impact makes downpours the primary driver of landslide risk in Turkey, while rainfall remains a secondary but still serious hazard.
+- **Trigger impact:** Both downpour- and rainfall-triggered landslides are often fatal (~70% of events). However, downpours occur more frequently (11 vs 8), are deadlier on average (median 3 fatalities vs 1.5 for rainfall), and have caused over twice the total fatalities (34 vs 15). The higher severity and frequency of downpours make them the dominant driver of landslide risk in Turkey, while rainfall remains a secondary but still significant hazard.
 - 
 - **Hotspots:** NE Turkey provinces (Rize–Artvin) are hotspots, with rainfall-induced slides causing repeated fatalities**.?
 - 
