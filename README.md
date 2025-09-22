@@ -46,7 +46,7 @@ Using matplotlib, bar charts were created to show and compare the number of even
 
 
  **Identify spatial hotspots** 
-
+A bubble map was created using matplotlib, where bubble size represents fatalities and color encodes landslide triggers, making spatial clusters and deadly hotspots immediately visible. At the provincial level, a dual-axis chart compares the frequency of events (bars) with their severity (average fatalities per event, line), highlighting regions that are risk-intensive due to either frequent or unusually deadly landslides.
 
 
 
@@ -60,7 +60,7 @@ Using matplotlib, bar charts were created to show and compare the number of even
 
  **Trigger impact:** Both downpour- and rainfall-triggered landslides in Turkey are often fatal (~70% of events). However, downpours occur more frequently (11 vs 8), are deadlier on average (median 3 fatalities vs 1.5 for rainfall), and have caused over twice the total fatalities (34 vs 15). Boxplot analysis further confirms that downpours have a higher median (3 vs 1.5) and maximum (12 vs 7) fatalities per event compared to rainfall. This combination of higher frequency, greater severity, and larger overall impact makes downpours the dominant driver of landslide risk in Turkey, while rainfall remains a secondary but still significant hazard.
  
- **Hotspots:** NE Turkey provinces (Rize–Artvin) are hotspots, with rainfall-induced slides causing repeated fatalities**.?
+ **Hotspots:** Rize and Diyarbakır stand out as high-severity hotspots, where rare landslide events result in disproportionately high fatalities (5 and 3 deaths per event, respectively). Artvin, by contrast, experiences more frequent landslides but at lower per-event severity (~1.5 fatalities).
  
  **Event size & impact:** ?
 
