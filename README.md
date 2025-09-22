@@ -1,5 +1,5 @@
 # Project Overview
-This repository analyses landslide events in **Turkey** from 2007 to 2016 using the **NASA Global Landslide Catalog** with Python. It explores how different triggers, particularly rainfall, relate to **fatalities**, **seasonality**, and **event frequency**.
+This repository analyses Turkey’s landslides from the NASA Global Landslide Catalog using Python, linking triggers to fatalities, revealing seasonal patterns, and highlighting provincial hotspots. It includes reproducible notebooks, clean data pipelines, and publication-ready visuals.
 
 https://data.nasa.gov/dataset/global-landslide-catalog-export)
 
@@ -51,10 +51,6 @@ A bubble map was created using matplotlib, where bubble size represents fataliti
 
 
 
-
-
-
-
  # Key Findings 
  **Seasonality:** Most events happen in July-Nov (midsummer-autumn) , but Jan(mid-winter) events are deadlier per landslide.
 
@@ -62,7 +58,5 @@ A bubble map was created using matplotlib, where bubble size represents fataliti
  
  **Hotspots:** Rize and Diyarbakır stand out as high-severity hotspots, where rare landslide events result in disproportionately high fatalities (5 and 3 deaths per event, respectively). Artvin, by contrast, experiences more frequent landslides but at lower per-event severity (~1.5 fatalities).
  
- **Event size & impact:** ?
 
- **Reporting note:** ?
 
