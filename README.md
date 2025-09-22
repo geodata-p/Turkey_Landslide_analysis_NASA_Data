@@ -1,5 +1,5 @@
 # Project Overview
-This repository analyses landslide events in **Turkey** from 2007 to 2016 using the **NASA Global Landslide Catalog** with Python. It explores how different triggers—particularly rainfall—relate to **fatalities**, **seasonality**, and **event frequency**.
+This repository analyses landslide events in **Turkey** from 2007 to 2016 using the **NASA Global Landslide Catalog** with Python. It explores how different triggers, particularly rainfall, relate to **fatalities**, **seasonality**, and **event frequency**.
 
 https://data.nasa.gov/dataset/global-landslide-catalog-export)
 
