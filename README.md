@@ -71,6 +71,9 @@ A bubble map was created using matplotlib, where bubble size represents fataliti
  
 <img width="630" height="470" alt="Percentage with fatalities vs trigger" src="https://github.com/user-attachments/assets/362cbaef-6a56-4b64-b80c-bd419cdb81e0" />
 
+<img width="989" height="590" alt="Number of events vs trigger" src="https://github.com/user-attachments/assets/4335da30-6cf8-4887-8f68-076abc29ec93" />
+
+
  <img width="989" height="590" alt="Average fatalities per event vs trigger" src="https://github.com/user-attachments/assets/9c3d50b2-4801-4dae-be75-a57a9ea8c00c" />
 
 <img width="630" height="470" alt="Total fatalities vs trigger" src="https://github.com/user-attachments/assets/629a60ff-6283-4f4a-b8fe-ca938658a3d8" />
