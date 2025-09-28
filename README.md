@@ -82,9 +82,9 @@ A bubble map was created using matplotlib, where bubble size represents fataliti
 
 
  **Hotspots:** Rize and Diyarbakır stand out as high-severity hotspots, where rare landslide events result in disproportionately high fatalities (5 and 3 deaths per event, respectively). Artvin, by contrast, experiences more frequent landslides but at lower per-event severity (~1.5 fatalities).
- 
+ <img width="1189" height="593" alt="events -fatalities per event-vs cities" src="https://github.com/user-attachments/assets/1fe5e1e3-5a92-460f-8b1d-c70bd96166b9" />
 <img width="790" height="690" alt="Bubble map -trigger-latitude vs longitude" src="https://github.com/user-attachments/assets/cb9fef74-7b7f-4440-9d7c-810260523251" />
 
-<img width="1189" height="593" alt="events -fatalities per event-vs cities" src="https://github.com/user-attachments/assets/1fe5e1e3-5a92-460f-8b1d-c70bd96166b9" />
+
 
 
