@@ -60,15 +60,28 @@ A bubble map was created using matplotlib, where bubble size represents fataliti
 
  # Key Findings 
  **Seasonality:** Most events happen in July-Nov (midsummer-autumn) , but Jan(mid-winter) events are deadlier per landslide.
+ 
+ <img width="630" height="470" alt="Events frequency vs month" src="https://github.com/user-attachments/assets/51ea6ad6-34af-4884-83ea-fcc58cc49f10" />
+ <img width="833" height="578" alt="Average fatalities per event vs month" src="https://github.com/user-attachments/assets/b1b32b26-d706-41a1-8b53-69e6d863190d" />
+
+
 
  **Trigger impact:** Both downpour- and rainfall-triggered landslides in Turkey are often fatal (~70% of events). However, downpours occur more frequently (11 vs 8), are deadlier on average (median 3 fatalities vs 1.5 for rainfall), and have caused over twice the total fatalities (34 vs 15). Boxplot analysis further confirms that downpours have a higher median (3 vs 1.5) and maximum (12 vs 7) fatalities per event compared to rainfall. This combination of higher frequency, greater severity, and larger overall impact makes downpours the dominant driver of landslide risk in Turkey, while rainfall remains a secondary but still significant hazard.
+
  
+<img width="630" height="470" alt="Percentage with fatalities vs trigger" src="https://github.com/user-attachments/assets/362cbaef-6a56-4b64-b80c-bd419cdb81e0" />
+
+ <img width="989" height="590" alt="Average fatalities per event vs trigger" src="https://github.com/user-attachments/assets/9c3d50b2-4801-4dae-be75-a57a9ea8c00c" />
+
+<img width="630" height="470" alt="Total fatalities vs trigger" src="https://github.com/user-attachments/assets/629a60ff-6283-4f4a-b8fe-ca938658a3d8" />
+
+ <img width="1189" height="590" alt="Boxplot-fatalities per event vs trigger" src="https://github.com/user-attachments/assets/5bbde934-75f8-4a84-9e94-201b1690818b" />
+
+
  **Hotspots:** Rize and Diyarbakır stand out as high-severity hotspots, where rare landslide events result in disproportionately high fatalities (5 and 3 deaths per event, respectively). Artvin, by contrast, experiences more frequent landslides but at lower per-event severity (~1.5 fatalities).
  
-
-
-
 <img width="790" height="690" alt="Bubble map -trigger-latitude vs longitude" src="https://github.com/user-attachments/assets/cb9fef74-7b7f-4440-9d7c-810260523251" />
 
+<img width="1189" height="593" alt="events -fatalities per event-vs cities" src="https://github.com/user-attachments/assets/1fe5e1e3-5a92-460f-8b1d-c70bd96166b9" />
 
 
