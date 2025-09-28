@@ -1,5 +1,6 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geodata-p/Turkey_Landslide_analysis_NASA_Data/blob/main/notebooks/Landslides.ipynb)
-![Python](https://img.shields.io/badge/python-3.12.11-blue.svg)
+[![Python](https://img.shields.io/badge/python-3.12.11-blue.svg)](https://www.python.org/downloads/release/python-31211/)
+
 
 
 ## Table of Contents
