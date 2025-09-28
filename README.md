@@ -20,7 +20,6 @@ This project analyses Turkey’s landslides from the NASA Global Landslide Catal
 # Project Overview
 This repository analyses Turkey’s landslides from the NASA Global Landslide Catalog using Python, linking triggers to fatalities, revealing seasonal patterns, and highlighting provincial hotspots. It includes reproducible notebooks, clean data pipelines, and publication-ready visuals.
 
-https://data.nasa.gov/dataset/global-landslide-catalog-export
 
 [NASA Global Landslide Catalog](https://data.nasa.gov/dataset/global-landslide-catalog-export)  
 *Data © NASA Global Landslide Catalog; cite accordingly.*
@@ -148,7 +147,7 @@ _Insight_: Some provinces face fewer but deadlier events, while others experienc
 ![Bubble map: triggers by latitude & longitude (bubble size = fatalities)](https://raw.githubusercontent.com/geodata-p/Turkey_Landslide_analysis_NASA_Data/main/figures/bubble_map_trigger_latitude_vs_longitude.png)
 
 
-
+Kirschbaum, D. B., Adler, R., Hong, Y., Hill, S., & Lerner-Lam, A. (2010). A global landslide catalog for hazard applications: method, results, and limitations. Natural Hazards, 52(3), 561–575. doi:10.1007/s11069-009-9401-4. [1] Kirschbaum, D.B., T. Stanley, Y. Zhou (In press, 2015). Spatial and Temporal Analysis of a Global Landslide Catalog. Geomorphology. doi:10.1016/j.geomorph.2015.03.016. [2]
 
 
 
