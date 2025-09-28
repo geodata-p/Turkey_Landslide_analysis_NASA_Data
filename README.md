@@ -84,9 +84,6 @@ _Severity in winter_: January (mid-winter) events are deadlier per landslide com
 
 
  
- <img width="833" height="578" alt="Average fatalities per event vs month" src="https://github.com/user-attachments/assets/b1b32b26-d706-41a1-8b53-69e6d863190d" />
-
- 
 
 
 
@@ -104,15 +101,25 @@ _Total impact_: Downpours caused over 2× the total fatalities — 34 vs 15 (rai
 _Distribution (boxplot)_: Downpours show higher median (3) and higher maximum (12) fatalities per event than rainfall (1.5 median, 7 max).
 
 _Conclusion_: The combination of higher frequency, greater per-event severity, and larger overall impact makes downpours the dominant driver of landslide risk in Turkey; rainfall is secondary but still significant.
+
+![Percentage of events with fatalities vs trigger](https://raw.githubusercontent.com/geodata-p/Turkey_Landslide_analysis_NASA_Data/main/figures/percentage_with_fatalities_vs_trigger.png)
  
 <img width="630" height="470" alt="Percentage with fatalities vs trigger" src="https://github.com/user-attachments/assets/362cbaef-6a56-4b64-b80c-bd419cdb81e0" />
 
+![Number of events vs trigger](https://raw.githubusercontent.com/geodata-p/Turkey_Landslide_analysis_NASA_Data/main/figures/number_of_events_vs_trigger.png)
+
+
 <img width="989" height="590" alt="Number of events vs trigger" src="https://github.com/user-attachments/assets/4335da30-6cf8-4887-8f68-076abc29ec93" />
 
+![Average fatalities per event vs trigger](https://raw.githubusercontent.com/geodata-p/Turkey_Landslide_analysis_NASA_Data/main/figures/average_fatalities_per_event_vs_trigger.png)
 
  <img width="989" height="590" alt="Average fatalities per event vs trigger" src="https://github.com/user-attachments/assets/9c3d50b2-4801-4dae-be75-a57a9ea8c00c" />
+ 
+![Total fatalities vs trigger](https://raw.githubusercontent.com/geodata-p/Turkey_Landslide_analysis_NASA_Data/main/figures/total_fatalities_vs_trigger.png)
 
 <img width="630" height="470" alt="Total fatalities vs trigger" src="https://github.com/user-attachments/assets/629a60ff-6283-4f4a-b8fe-ca938658a3d8" />
+
+![Boxplot of fatalities per event vs trigger](https://raw.githubusercontent.com/geodata-p/Turkey_Landslide_analysis_NASA_Data/main/figures/boxplot_fatalities_per_event_vs_trigger.png)
 
  <img width="1189" height="590" alt="Boxplot-fatalities per event vs trigger" src="https://github.com/user-attachments/assets/5bbde934-75f8-4a84-9e94-201b1690818b" />
 
@@ -127,7 +134,11 @@ _Artvin_: More frequent landslides, but lower per-event severity — about 1.5 f
 
 _Insight_: Some provinces face fewer but deadlier events, while others experience more frequent but less severe landslides.
 
+![Events and fatalities per event vs cities](https://raw.githubusercontent.com/geodata-p/Turkey_Landslide_analysis_NASA_Data/main/figures/events_fatalities_per_event_vs_cities.png)
+
  <img width="1189" height="593" alt="events -fatalities per event-vs cities" src="https://github.com/user-attachments/assets/1fe5e1e3-5a92-460f-8b1d-c70bd96166b9" />
+ ![Bubble map: triggers by latitude & longitude (bubble size = fatalities)](https://raw.githubusercontent.com/geodata-p/Turkey_Landslide_analysis_NASA_Data/main/figures/bubble_map_trigger_latitude_vs_longitude.png)
+
 <img width="790" height="690" alt="Bubble map -trigger-latitude vs longitude" src="https://github.com/user-attachments/assets/cb9fef74-7b7f-4440-9d7c-810260523251" />
 
 
