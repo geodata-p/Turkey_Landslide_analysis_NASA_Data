@@ -1,5 +1,12 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geodata-p/Turkey_Landslide_analysis_NASA_Data/blob/main/notebooks/Landslides.ipynb)
 
+## Table of Contents
+- [Executive Summary](#executive-summary)
+- [Reproduce](#reproduce)
+- [Methods](#methods)
+- [Findings](#findings)
+
+
 # Executive Summary
 This project analyses Turkey’s landslides from the NASA Global Landslide Catalog to understand when, why, and where fatalities occur. A reproducible Python pipeline (Colab/requirements.txt) cleans the global dataset, isolates Turkey, and quantifies risk by seasonality, trigger type, and hotspot. Results show downpours as the dominant driver of risk—they occur more often, are deadlier per event (median 3 vs. 1.5 for rainfall), and account for over twice the total fatalities (34 vs. 15). We also surface spatial contrasts: provinces like Rize and Diyarbakır show high severity (5 and 3 fatalities per event with few events), while Artvin shows higher frequency but moderate severity (~1.5 fatalities per event).
 
@@ -62,9 +69,9 @@ A bubble map was created using matplotlib, where bubble size represents fataliti
  
  **Seasonality:** 
  
-Seasonality of events: Most landslides occur between July–November (midsummer to autumn).
+__Seasonality of events__: Most landslides occur between July–November (midsummer to autumn).
 
-Severity in winter: January (mid-winter) events are deadlier per landslide compared to other months.
+__Severity in winter__: January (mid-winter) events are deadlier per landslide compared to other months.
 
  <img width="630" height="470" alt="Events frequency vs month" src="https://github.com/user-attachments/assets/51ea6ad6-34af-4884-83ea-fcc58cc49f10" />
  <img width="833" height="578" alt="Average fatalities per event vs month" src="https://github.com/user-attachments/assets/b1b32b26-d706-41a1-8b53-69e6d863190d" />
@@ -73,17 +80,17 @@ Severity in winter: January (mid-winter) events are deadlier per landslide compa
 
  **Trigger impact:**  
  
-Fatality likelihood: ~70% of both downpour- and rainfall-triggered events result in ≥1 fatality.
+__Fatality likelihood__: ~70% of both downpour- and rainfall-triggered events result in ≥1 fatality.
 
-Frequency: Downpours occur more often — 11 events vs 8 for rainfall.
+__Frequency__: Downpours occur more often — 11 events vs 8 for rainfall.
 
-Average severity: Downpours have a higher median fatalities per event — 3.0 vs 1.5 (rainfall).
+__Average severity__: Downpours have a higher median fatalities per event — 3.0 vs 1.5 (rainfall).
 
-Total impact: Downpours caused over 2× the total fatalities — 34 vs 15 (rainfall).
+__Total impact__: Downpours caused over 2× the total fatalities — 34 vs 15 (rainfall).
 
-Distribution (boxplot): Downpours show higher median (3) and higher maximum (12) fatalities per event than rainfall (1.5 median, 7 max).
+__Distribution (boxplot)__: Downpours show higher median (3) and higher maximum (12) fatalities per event than rainfall (1.5 median, 7 max).
 
-Conclusion: The combination of higher frequency, greater per-event severity, and larger overall impact makes downpours the dominant driver of landslide risk in Turkey; rainfall is secondary but still significant.
+__Conclusion__: The combination of higher frequency, greater per-event severity, and larger overall impact makes downpours the dominant driver of landslide risk in Turkey; rainfall is secondary but still significant.
  
 <img width="630" height="470" alt="Percentage with fatalities vs trigger" src="https://github.com/user-attachments/assets/362cbaef-6a56-4b64-b80c-bd419cdb81e0" />
 
@@ -99,13 +106,13 @@ Conclusion: The combination of higher frequency, greater per-event severity, and
 
  **Hotspots:** 
  
- Rize: Rare landslide events, but very severe — about 5 fatalities per event.
+ __Rize__: Rare landslide events, but very severe — about 5 fatalities per event.
 
-Diyarbakır: Also rare but high severity — around 3 fatalities per event.
+__Diyarbakır__: Also rare but high severity — around 3 fatalities per event.
 
-Artvin: More frequent landslides, but lower per-event severity — about 1.5 fatalities per event.
+__Artvin__: More frequent landslides, but lower per-event severity — about 1.5 fatalities per event.
 
-Insight: Some provinces face fewer but deadlier events, while others experience more frequent but less severe landslides.
+__Insight__: Some provinces face fewer but deadlier events, while others experience more frequent but less severe landslides.
 
  <img width="1189" height="593" alt="events -fatalities per event-vs cities" src="https://github.com/user-attachments/assets/1fe5e1e3-5a92-460f-8b1d-c70bd96166b9" />
 <img width="790" height="690" alt="Bubble map -trigger-latitude vs longitude" src="https://github.com/user-attachments/assets/cb9fef74-7b7f-4440-9d7c-810260523251" />
