@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Executive Summary](#executive-summary)
 - [Project Overview](#Project-Overview)
-- [Data & Tools](#Data-&-Tools)
+- [Data & Tools](#Data&Tools)
 - [Reproducibility](#Reproducibility)
 - [Objectives](#Objectives)
 - [Key Findings](#Key-Findings )
