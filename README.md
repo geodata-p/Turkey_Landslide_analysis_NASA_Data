@@ -22,6 +22,16 @@ This repository analyses Turkey’s landslides from the NASA Global Landslide Ca
 
 https://data.nasa.gov/dataset/global-landslide-catalog-export
 
+[NASA Global Landslide Catalog](https://data.nasa.gov/dataset/global-landslide-catalog-export)  
+*Data © NASA Global Landslide Catalog; cite accordingly.*
+
+**Key fields used**  
+- `event_dt` – Event date (used for year/month/seasonality analysis)  
+- `landslide_trigger` – Trigger type (downpour, rain, etc.)  
+- `fatality_count` – Number of deaths per event  
+- `admin_division_name` – Province (for spatial hotspots)  
+- `latitude`, `longitude` – Coordinates (for maps)  
+
 
 # Data & Tools
 - Data: NASA Global Landslide Catalog (CSV)
