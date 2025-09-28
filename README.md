@@ -78,11 +78,14 @@ _Seasonality of events_: Most landslides occur between July–November (midsumme
 
 _Severity in winter_: January (mid-winter) events are deadlier per landslide compared to other months.
 
+![Events frequency vs month](https://raw.githubusercontent.com/geodata-p/Turkey_Landslide_analysis_NASA_Data/main/figures/events_frequency_vs_month.png)
+
+
  <img width="630" height="470" alt="Events frequency vs month" src="https://github.com/user-attachments/assets/51ea6ad6-34af-4884-83ea-fcc58cc49f10" />
  <img width="833" height="578" alt="Average fatalities per event vs month" src="https://github.com/user-attachments/assets/b1b32b26-d706-41a1-8b53-69e6d863190d" />
 
  
-![Events frequency vs month](figures/Events-frequency-vs-month.png)
+
 
 
 
