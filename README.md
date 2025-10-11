@@ -11,7 +11,7 @@
 - [Reproducibility](#Reproducibility)
 - [Objectives](#Objectives)
 - [Key Findings](#Key-Findings )
-
+- [SQL Validation](#SQL-Validation )
 # Executive Summary
 This project analyses Turkey’s landslides from the NASA Global Landslide Catalog to understand when, why, and where fatalities occur. A reproducible Python pipeline (Colab/requirements.txt) cleans the global dataset, isolates Turkey, and quantifies risk by seasonality, trigger type, and hotspot. Results show downpours as the dominant driver of risk—they occur more often, are deadlier per event (median 3 vs. 1.5 for rainfall), and account for over twice the total fatalities (34 vs. 15). We also surface spatial contrasts: provinces like Rize and Diyarbakır show high severity (5 and 3 fatalities per event with few events), while Artvin shows higher frequency but moderate severity (~1.5 fatalities per event).
 
@@ -146,6 +146,15 @@ _Insight_: Some provinces face fewer but deadlier events, while others experienc
 
 ![Bubble map: triggers by latitude & longitude (bubble size = fatalities)](https://raw.githubusercontent.com/geodata-p/Turkey_Landslide_analysis_NASA_Data/main/figures/bubble_map_trigger_latitude_vs_longitude.png)
 
+
+## SQL Validation
+
+To validate the analytical results produced in Python, the cleaned Turkish landslide dataset was exported as a CSV file and re-analyzed in MySQL Workbench (v8.0.41).
+
+- **Data source:** [`data/landslides_tr.csv`](data/landslides_tr.csv) — Cleaned subset of NASA’s Global Landslide Catalog, filtered for Turkey (2007–2016).
+- **SQL scripts:** Stored in [`SQL_Analysis/`](SQL_Analysis) — Each `.sql` file replicates and validates one analytical step from the Python workflow (e.g., seasonality, trigger impact, spatial hotspots).
+- **Goal:** Demonstrate reproducibility and cross-validation of Python analyses using structured SQL queries.
+- 
 
 ## Citations
 Kirschbaum, D.B., Adler, R., Hong, Y., Hill, S. and Lerner-Lam, A. (2010)
