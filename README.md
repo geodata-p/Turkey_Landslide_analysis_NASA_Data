@@ -149,12 +149,12 @@ _Insight_: Some provinces face fewer but deadlier events, while others experienc
 
 ## SQL Validation
 
-To validate the analytical results produced in Python, the cleaned Turkish landslide dataset was exported as a CSV file and re-analyzed in MySQL Workbench (v8.0.41).
+To validate the analytical results produced in Python, the cleaned Turkish landslide dataset was exported as a CSV file and re-analysed in MySQL Workbench (v8.0.41).
 
 - **Data source:** [`data/landslides_tr.csv`](data/landslides_tr.csv) — Cleaned subset of NASA’s Global Landslide Catalog, filtered for Turkey (2007–2016).
 - **SQL scripts:** Stored in [`SQL_Analysis/`](SQL_Analysis) — Each `.sql` file replicates and validates one analytical step from the Python workflow (e.g., seasonality, trigger impact, spatial hotspots).
 - **Goal:** Demonstrate reproducibility and cross-validation of Python analyses using structured SQL queries.
-- 
+
 
 ## Citations
 Kirschbaum, D.B., Adler, R., Hong, Y., Hill, S. and Lerner-Lam, A. (2010)
