@@ -1,0 +1,1 @@
+This folder stores cleaned datasets used for SQL validation and analysis.
