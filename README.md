@@ -35,7 +35,7 @@ This repository analyses Turkey’s landslides from the NASA Global Landslide Ca
 # Data & Tools
 - Data: NASA Global Landslide Catalog (CSV)
 - Python 3.12.11
-
+- MySQL Workbench 8.0.41 (for SQL validation)
 
 # Reproducibility
   ## Requirements & Installation
