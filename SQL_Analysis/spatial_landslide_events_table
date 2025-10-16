@@ -1,0 +1,16 @@
+SELECT
+    event_date,
+    admin_division_name AS province,
+    latitude,
+    longitude,
+    landslide_trigger,
+    COALESCE(fatality_count, 0) AS fatality_count
+FROM landslides_tr
+WHERE TRIM(admin_division_name) <> ''         -- drop empty province names
+  AND latitude IS NOT NULL
+  AND longitude IS NOT NULL
+ORDER BY event_date
+LIMIT 20;                                    -- equivalent to .head(20)
+
+
+
