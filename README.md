@@ -74,14 +74,14 @@ The NASA Global Landslide Catalog was uploaded into Google Colab using pandas, c
 The resulting table was then filtered to isolate Turkey-specific events.
 
  **Analyse seasonality**
-Landslide events were grouped by month using pandas and visualised with matplotlib. Total fatalities and average fatalities per event were charted by month across 2007–2016 to highlight higher-risk months.
+Landslide events were grouped by month using pandas and visualised with matplotlib. Average fatalities per event were charted by month across 2007–2016 to highlight higher-risk months.
 
  **Compare impact by trigger**
-Using matplotlib, bar charts were created to show and compare the number of events, total fatalities, average fatalities per event and the percentage of deadly events for each landslide trigger in Turkey. Boxplots were generated with matplotlib to compare the distribution of fatalities across different landslide triggers, demonstrating variability (median, quartiles, and outliers) rather than relying solely on averages.
+Using matplotlib, bar charts were created to show and compare the percentage of deadly events and the number of events for each landslide trigger, average fatalities per event and total fatalities by trigger in Turkey. Boxplots were generated with matplotlib to compare the distribution of fatalities across different landslide triggers, demonstrating variability (median, quartiles, and outliers) rather than relying solely on averages.
 
 
  **Identify spatial hotspots** 
-A bubble map was created using matplotlib, where bubble size represents fatalities and color encodes landslide triggers, making spatial clusters and deadly hotspots immediately visible. At the provincial level, a dual-axis chart compares the frequency of events (bars) with their severity (average fatalities per event, line), highlighting regions that are risk-intensive due to either frequent or unusually deadly landslides.
+At the provincial level, a dual-axis chart compares the frequency of events (bars) with their severity (average fatalities per event, line), highlighting regions that are risk-intensive due to either frequent or unusually deadly landslides. A bubble map was created using matplotlib, where bubble size represents fatalities and color encodes landslide triggers, making spatial clusters and deadly hotspots immediately visible. 
 
 
 
@@ -116,7 +116,7 @@ _Total impact_: Downpours caused over 2× the total fatalities — 34 vs 15 (rai
 
 _Distribution (boxplot)_: Downpours show higher median (3) and higher maximum (12) fatalities per event than rainfall (1.5 median, 7 max).
 
-_Conclusion_: The combination of higher frequency, greater per-event severity, and larger overall impact makes downpours the dominant driver of landslide risk in Turkey; rainfall is secondary but still significant.
+_Conclusion_: The combination of higher frequency and greater per-event severity makes downpours the dominant driver of landslide risk in Turkey; rainfall is secondary but still significant.
 
 ![Percentage of events with fatalities vs trigger](https://raw.githubusercontent.com/geodata-p/Turkey_Landslide_analysis_NASA_Data/main/figures/percentage_with_fatalities_vs_trigger.png)
  
