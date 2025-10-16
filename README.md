@@ -3,6 +3,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 
+# Landslide Trigger Analysis – Turkey (NASA Global Landslide Catalog)
+
+📍 *A reproducible data science and geotechnical insight project*  
+🧠 *Python + SQL + Spatial Risk Analysis | Focused on landslide triggers and fatalities (2007–2016)*  
 
 ## Table of Contents
 - [Executive Summary](#executive-summary)
@@ -13,7 +17,7 @@
 - [Key Findings](#Key-Findings )
 - [SQL Validation](#SQL-Validation )
 # Executive Summary
-This project analyses Turkey’s landslides from the NASA Global Landslide Catalog to understand when, why, and where fatalities occur. A reproducible Python pipeline (Colab/requirements.txt) cleans the global dataset, isolates Turkey, and quantifies risk by seasonality, trigger type, and hotspot. Results show downpours as the dominant driver of risk—they occur more often, are deadlier per event (median 3 vs. 1.5 for rainfall), and account for over twice the total fatalities (34 vs. 15). We also surface spatial contrasts: provinces like Rize and Diyarbakır show high severity (5 and 3 fatalities per event with few events), while Artvin shows higher frequency but moderate severity (~1.5 fatalities per event).
+This project analyses Turkey’s landslides from the NASA Global Landslide Catalog to understand when, why, and where fatalities occur. A reproducible Python pipeline (Colab/requirements.txt) cleans the global dataset, isolates Turkey, and quantifies risk by seasonality, trigger type, and hotspot. Results show downpours as the dominant driver of risk—they occur more often, are deadlier per event (median 3 vs. 1.5 for rainfall), and account for over twice the total fatalities (34 vs. 15). We also surface spatial contrasts: provinces like Rize and Diyarbakır show high severity (12 and 7 fatalities per event with few events), while Artvin shows higher frequency but moderate severity (~2.8 fatalities per event).
 
 
 
