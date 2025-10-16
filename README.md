@@ -134,11 +134,11 @@ _Conclusion_: The combination of higher frequency, greater per-event severity, a
 
  **Hotspots:** 
  
- _Rize_: Rare landslide events, but very severe — about 5 fatalities per event.
+ _Rize_: Rare landslide events, but very severe — about 12 fatalities per event.
 
-_Diyarbakır_: Also rare but high severity — around 3 fatalities per event.
+_Diyarbakır_: Also rare but high severity — around 7 fatalities per event.
 
-_Artvin_: More frequent landslides, but lower per-event severity — about 1.5 fatalities per event.
+_Artvin_: More frequent landslides, but lower per-event severity — about 2.8 fatalities per event.
 
 _Insight_: Some provinces face fewer but deadlier events, while others experience more frequent but less severe landslides.
 
