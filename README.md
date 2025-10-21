@@ -174,9 +174,12 @@ To validate the analytical results produced in Python, the cleaned Turkish lands
 - **Goal:** Demonstrate reproducibility and cross-validation of Python analyses using structured SQL queries.
 
 ---
+
 **Author:** Pooneh Shah Malekpoor  
 *KTP Associate | Geotechnical Engineering & Data Analytics | Leeds Beckett University*  
-📫 [LinkedIn](https://www.linkedin.com/in/poonehshahmalekpoor)
+📫 [LinkedIn](https://www.linkedin.com/in/pooneh-shah-malekpoor/)
+📫 Connect on [LinkedIn](https://www.linkedin.com/in/pooneh-shah-malekpoor/)
+
 
 ## Citations
 Kirschbaum, D.B., Adler, R., Hong, Y., Hill, S. and Lerner-Lam, A. (2010)
