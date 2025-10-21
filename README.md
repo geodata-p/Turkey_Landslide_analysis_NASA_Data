@@ -2,7 +2,7 @@
 [![Python](https://img.shields.io/badge/python-3.12.11-blue.svg)](https://www.python.org/downloads/release/python-31211/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![MySQL Workbench](https://img.shields.io/badge/MySQL_Workbench-8.0.41-4479A1?logo=mysql&logoColor=white)](https://dev.mysql.com/downloads/workbench/)
-![Turkey Landslide Hotspot Map](figures/cover.png)
+
 
 
 
@@ -178,7 +178,6 @@ To validate the analytical results produced in Python, the cleaned Turkish lands
 **Author:** Pooneh Shah Malekpoor  
 *KTP Associate | Geotechnical Engineering & Data Analytics | Leeds Beckett University*  
 📫 [LinkedIn](https://www.linkedin.com/in/pooneh-shah-malekpoor/)
-📫 Connect on [LinkedIn](https://www.linkedin.com/in/pooneh-shah-malekpoor/)
 
 
 ## Citations
