@@ -2,25 +2,35 @@
 [![Python](https://img.shields.io/badge/python-3.12.11-blue.svg)](https://www.python.org/downloads/release/python-31211/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![MySQL Workbench](https://img.shields.io/badge/MySQL_Workbench-8.0.41-4479A1?logo=mysql&logoColor=white)](https://dev.mysql.com/downloads/workbench/)
+![Turkey Landslide Hotspot Map](figures/cover.png)
 
 
 
 
 # Landslide Trigger Analysis – Turkey (NASA Global Landslide Catalog)
-
+__Data-driven identification of landslide hotspots and triggers across Turkey to inform infrastructure resilience and hazard-mitigation planning.__
 📍 *A reproducible data science and geotechnical insight project*  
 🧠 *Python + SQL + Spatial Risk Analysis | Focused on landslide triggers and fatalities (2007–2016)*  
 
 ## Table of Contents
 - [Executive Summary](#executive-summary)
+- [Practical Application](#Practical-Application)
 - [Project Overview](#Project-Overview)
 - [Data & Tools](#data--tools)
 - [Reproducibility](#Reproducibility)
 - [Objectives](#Objectives)
 - [Key Findings](#Key-Findings )
 - [SQL Validation](#SQL-Validation )
+  
 # Executive Summary
 This project analyses Turkey’s landslides from the NASA Global Landslide Catalog to understand when, why, and where fatalities occur. A reproducible Python pipeline (Colab/requirements.txt) cleans the global dataset, isolates Turkey, and quantifies risk by seasonality, trigger type, and hotspot. Results show downpours as the dominant driver of risk—they occur more often, are deadlier per event (median 3 vs. 1.5 for rainfall), and account for over twice the total fatalities (34 vs. 15). We also surface spatial contrasts: provinces like Rize and Diyarbakır show high severity (12 and 7 fatalities per event with few events), while Artvin shows higher frequency but moderate severity (~2.8 fatalities per event).
+
+# Practical Application
+This work delivers a Turkey-wide, data-driven assessment of landslide hotspots and causal triggers. The outputs enable:
+- **Rapid, defensible screening** of corridors and sites.
+- **Prioritisation of geo-investigations** and focused survey spend.
+- **Targeted mitigation planning** to improve safety and resilience.
+- **Greater programme certainty and value for money** across transport and energy portfolios.
 
 
 
@@ -162,6 +172,10 @@ To validate the analytical results produced in Python, the cleaned Turkish lands
 - **SQL scripts:** Stored in [`SQL_Analysis/`](SQL_Analysis) — Each `.sql` file replicates and validates one analytical step from the Python workflow (e.g., seasonality, trigger impact, spatial hotspots).
 - **Goal:** Demonstrate reproducibility and cross-validation of Python analyses using structured SQL queries.
 
+---
+**Author:** Pooneh Shah Malekpoor  
+*KTP Associate | Geotechnical Engineering & Data Analytics | Leeds Beckett University*  
+📫 [LinkedIn](https://www.linkedin.com/in/poonehshahmalekpoor)
 
 ## Citations
 Kirschbaum, D.B., Adler, R., Hong, Y., Hill, S. and Lerner-Lam, A. (2010)
