@@ -9,6 +9,7 @@
 
 # Landslide Trigger Analysis – Turkey (NASA Global Landslide Catalog)
 __Data-driven identification of landslide hotspots and triggers across Turkey to inform infrastructure resilience and hazard-mitigation planning.__
+
 📍 *A reproducible data science and geotechnical insight project*  
 🧠 *Python + SQL + Spatial Risk Analysis | Focused on landslide triggers and fatalities (2007–2016)*  
 
