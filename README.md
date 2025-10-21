@@ -64,15 +64,15 @@ This repository analyses Turkey’s landslides from the NASA Global Landslide Ca
     To ensure reproducibility, a `requirements.txt` file is included in this repository. This allows anyone to recreate the same environment and run the code reliably.
 
           ### Option A: Clone repo (requires Git)
-          git clone https://github.com/geodata-p/Turkey_Landslide_analysis_NASA_Data.git
-          cd Turkey_Landslide_analysis_NASA_Data
+          git clone https://github.com/geodata-p/Turkey-digital-landslide-risk-analysis.git
+          cd Turkey-digital-landslide-risk-analysis
           pip install -r requirements.txt
 
           ### Option B: Download ZIP (no Git required)
           - Click the green “Code” button on GitHub → Download ZIP
           - Extract the folder
           - Open terminal/Anaconda Prompt and run:
-          cd path/to/Turkey_Landslide_analysis_NASA_Data
+          cd path/to/Turkey-digital-landslide-risk-analysis
           pip install -r requirements.txt
 
 
