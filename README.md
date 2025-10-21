@@ -2,6 +2,7 @@
 [![Python](https://img.shields.io/badge/python-3.12.11-blue.svg)](https://www.python.org/downloads/release/python-31211/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![MySQL Workbench](https://img.shields.io/badge/MySQL_Workbench-8.0.41-4479A1?logo=mysql&logoColor=white)](https://dev.mysql.com/downloads/workbench/)
+![Turkey Landslide Hotspot Map](https://raw.githubusercontent.com/geodata-p/Turkey_Landslide_analysis_NASA_Data/main/figures/bubble_map_trigger_latitude_vs_longitude.png)
 
 
 
